@@ -617,13 +617,11 @@ img {
   height: 100%;
   background-color: var(--backdrop-backgroun);
 
-  visibility: visible;
   opacity: 1;
   transition: opacity var(--primary-duration) var(--primery-timing-function);
 }
 
 .backdrop.is-hidden {
-  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
