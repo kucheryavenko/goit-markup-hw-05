@@ -618,10 +618,12 @@ img {
   background-color: var(--backdrop-backgroun);
 
   opacity: 1;
-  transition: opacity var(--primary-duration) var(--primery-timing-function);
+  transition: opacity var(--primary-duration) var(--primery-timing-function),
+    visibility var(--primary-duration) var(--primery-timing-function);
 }
 
 .backdrop.is-hidden {
+  visibility: hidden;
   opacity: 0;
   pointer-events: none;
 }
